@@ -23,6 +23,7 @@ class ItemSelected extends React.Component {
               Name:&#160;
               {pokemon.name}
               <br />
+              <br />
               Id:&#160;
               {pokemon.id}
             </figcaption>

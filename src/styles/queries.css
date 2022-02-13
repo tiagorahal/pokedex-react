@@ -43,9 +43,13 @@
     height: 310px;
   }
 
+  .ItemSelected figcaption {
+    font-size: 0.8rem;
+  }
+
   .TopImage img {
     width: 150px;
-    height: 15gio0px;
+    height: 150px;
   }
 
   .MidSection {
@@ -119,7 +123,7 @@
 @media (min-width: 1400px) {
 
   .ItemSelected {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   
 }
