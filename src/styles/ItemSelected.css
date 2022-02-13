@@ -1,0 +1,13 @@
+.ItemSelected {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3%;
+}
+
+.TopImage img {
+  max-width: 250px;
+  max-height: 250px;
+}

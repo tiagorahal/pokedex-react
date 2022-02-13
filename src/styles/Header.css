@@ -1,6 +1,6 @@
 .Header {
-  background-color: rgb(59, 76, 202);
-  color: rgb(255, 222, 0);
+  background-color: rgb(10 40 95);
+  color: rgb(255 204 0);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -11,7 +11,9 @@
 }
 
 .Header a {
-  color: rgb(255, 222, 0);
+  color: rgb(255 204 0);
+  font-size: 1.3rem;
+  text-decoration: none;
 }
 
 .Header-links {

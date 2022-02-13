@@ -1,7 +1,7 @@
 .Footer {
-  background-color: rgb(59, 76, 202);
+  background-color: rgb(10 40 95);
   text-align: center;
-  color: black;
+  color: rgb(255 204 0);
   display: flex;
   justify-content: center;
   align-items: center;
