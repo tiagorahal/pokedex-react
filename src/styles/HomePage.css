@@ -7,5 +7,12 @@
   background-color: black;
   color: blueviolet;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  min-height: 90vh;
+}
+
+.HomePage div {
+  display: flex;
+  justify-content: center;
+  align-content: stretch
 }
