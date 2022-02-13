@@ -21,13 +21,13 @@
 .SelectMenu {
   display: flex;
   flex-direction: column;
-  flex-wrap: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 1%;
 }
 
 .SelectedRow {
-  min-width:90%; 
+  min-width: 90%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -36,4 +36,3 @@
   flex-direction: row;
   justify-content: space-around;
 }
-
