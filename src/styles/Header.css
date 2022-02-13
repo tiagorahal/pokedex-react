@@ -38,7 +38,7 @@
 .Header a:hover {
   color: rgb(255, 222, 0);
   transition: all 1s;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .Header-links {

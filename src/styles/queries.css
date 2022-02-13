@@ -43,9 +43,18 @@
     height: 310px;
   }
 
+  .ItemSelected figcaption {
+    font-size: 0.8rem;
+  }
+
   .TopImage img {
     width: 150px;
     height: 150px;
+  }
+
+  .MidSection {
+    font-size: 0.6rem;
+    padding-top: 5%;
   }
 }
   
@@ -105,11 +114,16 @@
   }
 
   .MidSection {
-    font-size: 1.5rem;
+    padding-top: 5%;
+    font-size: 0.9rem;
   }
 
 }
 
 @media (min-width: 1400px) {
+
+  .ItemSelected {
+    font-size: 1rem;
+  }
   
 }
