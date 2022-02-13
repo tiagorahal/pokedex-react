@@ -39,13 +39,13 @@
 @media (max-width: 1199.98px) {
 
   .ItemSelected {
-    width: 270px;
-    height: 350px;
+    width: 220px;
+    height: 310px;
   }
 
   .TopImage img {
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
   }
 }
   
@@ -99,9 +99,9 @@
   }
 
   .TopImage img {
-    width: 210px;
-    height: 210px;
-    padding-bottom: 40px;
+    width: 200px;
+    height: 200px;
+    padding-bottom: 10px;
   }
 
   .MidSection {
