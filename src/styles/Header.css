@@ -5,10 +5,18 @@
   padding-right: 3%;
 }
 
+.header-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .Header h1 {
   padding-top: 8px;
   align-self: center;
   font-family: pokemon-gb;
+  font-size: 1.3rem;
+  padding-bottom: 5px;
 }
 
 .Header a {
@@ -18,6 +26,8 @@
   padding-left: 3%;
   transition: all 1s;
   font-family: pokemon-gb;
+  font-size: 0.7em;
+  padding-bottom: 10px;
 }
 
 .Header a:hover {
