@@ -1,12 +1,14 @@
 .Header {
   background-color: rgb(10 40 95);
-  color: rgb(255 204 0);
+  color: rgb(255, 222, 0);
   padding-left: 3%;
   padding-right: 3%;
 }
 
 .Header h1 {
+  padding-top: 8px;
   align-self: center;
+  font-family: pokemon-gb;
 }
 
 .Header a {
@@ -15,6 +17,7 @@
   text-decoration: none;
   padding-left: 3%;
   transition: all 1s;
+  font-family: pokemon-gb;
 }
 
 .Header a:hover {
