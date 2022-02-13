@@ -1,3 +1,4 @@
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
 .Header {
   background-color: rgb(10 40 95);
   color: rgb(255, 222, 0);
@@ -21,13 +22,17 @@
 
 .Header a {
   color: rgb(255 204 0);
-  font-size: 1.3rem;
   text-decoration: none;
   padding-left: 3%;
   transition: all 1s;
   font-family: pokemon-gb;
-  font-size: 0.7em;
+  font-size: 0.7rem;
   padding-bottom: 10px;
+}
+
+.Header-links a {
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .Header a:hover {
@@ -41,9 +46,4 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-}
-
-.Header-links a {
-  margin-left: 2%;
-  margin-right: 2%;
 }
