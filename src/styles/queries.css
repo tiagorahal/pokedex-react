@@ -2,6 +2,8 @@
 /* stylelint-disable */
 @media (min-width: 576px) {
 
+  
+
 }
 
 @media (min-width: 769px) {
@@ -15,6 +17,10 @@
     justify-content: space-between;
     align-items: center;
     min-height: 6vh;
+  }
+
+  .Header-links {
+    margin-left: 40px;
   }
 }
   
@@ -42,10 +48,14 @@
 
 @media (max-width: 575.98px) {
 
+  
+
 }
 
 
 @media (max-width: 767.98px) {
+
+ 
   
 }
 
@@ -56,6 +66,10 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .Header {
+    min-height: 8vh;
   }
   
 }
