@@ -1,4 +1,3 @@
-
 /* stylelint-disable */
 /* MAX WIDTH */
 @media (max-width: 575.98px) {
@@ -95,13 +94,18 @@
 @media (min-width: 1200px) {
 
   .ItemSelected {
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 450px;
   }
 
   .TopImage img {
-    width: 180px;
-    height: 180px;
+    width: 210px;
+    height: 210px;
+    padding-bottom: 40px;
+  }
+
+  .MidSection {
+    font-size: 1.5rem;
   }
 
 }

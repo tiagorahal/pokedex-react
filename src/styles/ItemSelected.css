@@ -2,8 +2,6 @@
   background-color: rgb(10 40 95);
   padding-top: 1%;
   border-radius: 15%;
-  width: 200px;
-  height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
