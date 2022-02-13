@@ -11,7 +11,8 @@
   margin-right: 0.5%;
 }
 
-.MidSection {
-  padding-top: 20%;
+.MidSection p {
+  padding-top: 5%;
   text-align: start;
+  font-family: pokemon-gb;
 }
