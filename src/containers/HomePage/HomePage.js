@@ -7,18 +7,38 @@ class HomePage extends React.Component {
   render() {
     return (
       <div className="HomePage">
-        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing eliorem ipsum dolor sit amet.</h1>
+        <h1>Chose the Pokemon that you want to know about!</h1>
         <div className="SelectMenu">
-          <ItemSelected />
-          <ItemSelected />
-          <ItemSelected />
-          <ItemSelected />
-          <ItemSelected />
-          <ItemSelected />
-          <ItemSelected />
-          <ItemSelected />
-          <ItemSelected />
-          <ItemSelected />
+          <div className="SelectedRow">
+            <ItemSelected />
+            <ItemSelected />
+            <ItemSelected />
+          </div>
+          <div className="SelectedRow">
+            <ItemSelected />
+            <ItemSelected />
+            <ItemSelected />
+          </div>
+          <div className="SelectedRow">
+            <ItemSelected />
+            <ItemSelected />
+            <ItemSelected />
+          </div>
+          <div className="SelectedRow">
+            <ItemSelected />
+            <ItemSelected />
+            <ItemSelected />
+          </div>
+          <div className="SelectedRow">
+            <ItemSelected />
+            <ItemSelected />
+            <ItemSelected />
+          </div>
+          <div className="SelectedRow">
+            <ItemSelected />
+            <ItemSelected />
+            <ItemSelected />
+          </div>
         </div>
       </div>
     );

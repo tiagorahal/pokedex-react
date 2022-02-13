@@ -2,12 +2,17 @@
   background-color: rgb(10 40 95);
   color: rgb(255 204 0);
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding-left: 3%;
   padding-right: 3%;
   min-height: 6vh;
+}
+
+.Header h1 {
+  align-self: center;
 }
 
 .Header a {
