@@ -7,7 +7,7 @@ class SidePanel extends React.Component {
     return (
       <div className="SidePanel">
         <span>
-          <a href="www.google.com">Testing the side panel</a>
+          <a href="/">Testing the side panel</a>
         </span>
       </div>
     );

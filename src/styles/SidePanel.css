@@ -6,4 +6,6 @@
 .SidePanel {
   background-color: red;
   color: blue;
+  min-height: 91vh;
+  max-width: 20vh;
 }

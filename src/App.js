@@ -2,14 +2,16 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header/Header';
-import SidePanel from './components/SidePanel/SidePanel';
+import HomePage from './containers/HomePage/HomePage';
+import Footer from './components/Footer/Footer';
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">       
         <Header />
-        <SidePanel />
+        <HomePage />
+        <Footer />
       </div>
     );
   }

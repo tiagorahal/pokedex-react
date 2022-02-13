@@ -6,4 +6,6 @@
 .HomePage {
   background-color: black;
   color: blueviolet;
+  display: flex;
+  flex-direction: row;
 }
