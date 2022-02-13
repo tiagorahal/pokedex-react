@@ -7,9 +7,11 @@ class Header extends React.Component {
     return (
       <div className="Header">
         <h1>Pokemon Header</h1>
-        <a href="/">Pokemons,</a>
-        <a href="/">Types,</a>
-        <a href="/">Something</a>
+        <div className="Header-links">
+          <a href="/">Pokemons</a>
+          <a href="/">Types</a>
+          <a href="/">Something</a>
+        </div>
       </div>
     );
   }
