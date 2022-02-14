@@ -1,6 +1,6 @@
-# Pokémon TCG
+# React Pokédex
 
-> Pokémon Trading Card Game
+> Pokédex
 
 ![screenshot](./screenshot-1.png)
 ![screenshot](./screenshot-2.png)
