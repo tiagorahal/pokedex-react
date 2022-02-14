@@ -11,7 +11,7 @@ A webapp dedicated to simulate a real Pokedex using Pokémon API and Involvement
 
 - CSS
 - JavaScript
-- Rails
+- React
 - Redux
 
 ## Live Demo
