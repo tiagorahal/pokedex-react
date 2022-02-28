@@ -1,13 +1,15 @@
 /* stylelint-disable font-family-no-missing-generic-family-keyword */
 .Footer {
-  background-color: rgb(10 40 95);
+  background-color: rgb(255, 255, 255);
   text-align: center;
-  color: rgb(255 204 0);
+  color: rgb(0, 0, 0);
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 3vh;
+  min-height: 6vh;
   font-family: pokemon-gb;
   padding-top: 5px;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
+  border: 4vh solid transparent;
+  border-image: url(../assets/images/border-red.png) 100 stretch;
 }

@@ -1,9 +1,11 @@
 /* stylelint-disable font-family-no-missing-generic-family-keyword */
 .Header {
-  background-color: rgb(10 40 95);
-  color: rgb(255, 222, 0);
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   padding-left: 3%;
   padding-right: 3%;
+  border: 4vh solid transparent;
+  border-image: url(../assets/images/border-red.png) 100 stretch;
 }
 
 .header-logo {
@@ -21,12 +23,11 @@
 }
 
 .Header a {
-  color: rgb(255 204 0);
+  color: rgb(0, 0, 0);
   text-decoration: none;
   padding-left: 3%;
   transition: all 1s;
   font-family: pokemon-gb;
-  font-size: 0.7rem;
   padding-bottom: 10px;
 }
 
@@ -36,7 +37,7 @@
 }
 
 .Header a:hover {
-  color: rgb(255, 222, 0);
+  color: rgb(0, 0, 0);
   transition: all 1s;
   transform: scale(1.1);
 }
