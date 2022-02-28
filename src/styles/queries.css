@@ -1,6 +1,9 @@
 /* stylelint-disable */
 /* MAX WIDTH */
 @media (max-width: 575.98px) {
+  .Header a {
+    font-size: 0.6rem;
+  }
   
 
 }
