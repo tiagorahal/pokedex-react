@@ -13,28 +13,15 @@ class HomePage extends React.Component {
             <ItemSelected />
             <ItemSelected />
             <ItemSelected />
-          </div>
-          <div className="SelectedRow">
             <ItemSelected />
             <ItemSelected />
             <ItemSelected />
-          </div>
-          <div className="SelectedRow">
             <ItemSelected />
             <ItemSelected />
             <ItemSelected />
-          </div>
-          <div className="SelectedRow">
             <ItemSelected />
             <ItemSelected />
             <ItemSelected />
-          </div>
-          <div className="SelectedRow">
-            <ItemSelected />
-            <ItemSelected />
-            <ItemSelected />
-          </div>
-          <div className="SelectedRow">
             <ItemSelected />
             <ItemSelected />
             <ItemSelected />

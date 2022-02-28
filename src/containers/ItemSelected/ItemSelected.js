@@ -15,7 +15,7 @@ const pokemon = {
 class ItemSelected extends React.Component {
   render() {
     return (
-      <div className="ItemSelected">
+      <div className="ItemSelected col-12">
         <div className="TopSection">
           <figure className="TopImage">
             <img src={TopImage} alt="Pokemon" />
