@@ -4,6 +4,8 @@
   color: rgb(255, 222, 0);
   padding-left: 3%;
   padding-right: 3%;
+  border: 4vh solid transparent;
+  border-image: url(../assets/images/border.png) 100 round;
 }
 
 .header-logo {
