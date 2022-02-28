@@ -1,9 +1,9 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
-import TopImage from '../../assets/images/pokelogo.png';
 import '../../styles/ItemSelected.css';
 
 const pokemon = {
+  image: 'https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png',
   name: 'poke name',
   id: 'poke id',
   type: 'poke type',
@@ -18,7 +18,7 @@ class ItemSelected extends React.Component {
       <div className="ItemSelected col-4">
         <div className="TopSection">
           <figure className="TopImage">
-            <img src={TopImage} alt="Pokemon" />
+            <img src={pokemon.image} alt="Pokemon" />
             <figcaption>
               Name:&#160;
               {pokemon.name}
