@@ -4,17 +4,19 @@ import React from 'react';
 import getPokemon from '../../services/pokemonInfo/API';
 /* https://pokeapi.co/api/v2/pokemon/{id or name}/ TO GET THE POKEMON */
 
+getPokemon(25);
+
 const pokemon = {
   image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png',
-  name: 'pikachu',
-  id: '25',
-  type: 'electric',
-  height: '3',
-  weight: '20',
-  generation: '1',
+  name: 'pikachuAA',
+  id: '25AAA',
+  type: 'electriAAAc',
+  height: '3AA',
+  weight: '20AA',
+  generation: '1AA',
 };
 
-class ItemSelected extends React.Component {
+class MockItem extends React.Component {
   render() {
     return (
       <div className="ItemSelected col-4">
@@ -54,4 +56,4 @@ class ItemSelected extends React.Component {
   }
 }
 
-export default ItemSelected;
+export default MockItem;

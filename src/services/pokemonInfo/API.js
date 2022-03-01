@@ -5,6 +5,7 @@ const getPokemon = (pokeId) => {
 
   const xhr = new XMLHttpRequest();
   xhr.responseType = 'json';
+
   xhr.onreadystatechange = () => {
     if (xhr.readyState === XMLHttpRequest.DONE) {
       console.log(xhr.response);
@@ -13,6 +14,7 @@ const getPokemon = (pokeId) => {
 
   xhr.open('GET', endpoint);
   xhr.send();
+  return xhr.response;
 };
 
 export default getPokemon;

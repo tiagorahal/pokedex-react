@@ -1,5 +1,6 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
+import MockItem from '../ItemSelected/mock';
 import ItemSelected from '../ItemSelected/ItemSelected';
 
 class HomePage extends React.Component {
@@ -9,7 +10,7 @@ class HomePage extends React.Component {
         <h2>Chose the Pokemon that you want to know more about!</h2>
         <div className="SelectMenu">
           <div className="SelectedRow">
-            <ItemSelected />
+            <MockItem />
             <ItemSelected />
             <ItemSelected />
             <ItemSelected />
