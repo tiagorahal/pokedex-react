@@ -1,7 +1,6 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import ItemSelected from '../ItemSelected/ItemSelected';
-import '../../styles/HomePage.css';
 
 class HomePage extends React.Component {
   render() {

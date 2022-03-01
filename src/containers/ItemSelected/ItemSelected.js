@@ -1,15 +1,18 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
-import '../../styles/ItemSelected.css';
+import getPokemon from '../../services/pokemonInfo/API';
+/* https://pokeapi.co/api/v2/pokemon/{id or name}/ TO GET THE POKEMON */
+
+getPokemon(1);
 
 const pokemon = {
-  image: 'https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png',
-  name: 'poke name',
-  id: 'poke id',
-  type: 'poke type',
-  height: 'poke height',
-  weight: 'poke weight',
-  generation: 'poke gen',
+  image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png',
+  name: 'pikachu',
+  id: '25',
+  type: 'electric',
+  height: '3',
+  weight: '20',
+  generation: '1',
 };
 
 class ItemSelected extends React.Component {
