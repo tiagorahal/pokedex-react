@@ -1,8 +1,6 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
-import getPokemon from '../../services/pokemonInfo/API';
-/* https://pokeapi.co/api/v2/pokemon/{id or name}/ TO GET THE POKEMON */
 
 const pokemon = {
   image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png',
