@@ -1,6 +1,5 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
-import '../../styles/Header.css';
 import PixelBall from '../../assets/images/pokeball.png';
 
 class Header extends React.Component {
