@@ -1,19 +1,35 @@
-/* eslint-disable no-unused-vars */
+/* eslint-disable react/destructuring-assignment */
+/* eslint-disable react/no-unused-state */
 /* eslint-disable react/prefer-stateless-function */
+/* eslint-disable no-unused-vars */
 import React from 'react';
-import fetchPokemon from '../../services/api';
-
-console.log(typeof (fetchPokemon(1)));
+import getPokemon from '../../services/api';
 
 class ItemSelected extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      id: 'id',
+      name: 'name',
+      height: 'height',
+      weight: 'wight',
+      image: 'image',
+      hp: 'hp',
+    };
+    console.log('constructor');
+  }
+
+  componentDidMount() {
+    console.log('componentDidMount');
+  }
+
   render() {
-    const pokemon = fetchPokemon(99);
-    console.log(typeof (pokemon));
+    console.log('render');
     return (
       <div>
         <h1>
           testing:
-          {pokemon.name}
+          {this.state.name}
         </h1>
       </div>
     );
