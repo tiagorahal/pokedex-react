@@ -1,6 +1,6 @@
 /* stylelint-disable font-family-no-missing-generic-family-keyword */
 .ItemSelected {
-  background-color: rgba(0, 0, 0, 0.76);
+  min-width: 200px;
   padding-top: 1%;
   border-radius: 2%;
   display: flex;
@@ -11,7 +11,8 @@
   margin-left: 0.5%;
   margin-right: 0.5%;
   font-family: pokemon-gb;
-
+  border: 4vh solid transparent;
+  border-image: url(../assets/images/border-red.png) 100 stretch;
 }
 
 .TopImage img {
