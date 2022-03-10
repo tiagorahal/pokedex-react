@@ -13,6 +13,10 @@
   font-family: pokemon-gb;
 }
 
+.TopImage img {
+  padding-bottom: 10%;
+}
+
 .MidSection p {
   padding-top: 5%;
   text-align: start;
