@@ -36,7 +36,10 @@ class ItemSelected extends React.Component {
         type: result.types[0].type.name.toUpperCase(),
       });
     };
-    fetchPokemon(Math.floor(Math.random() * 150));
+
+    const randomNumber = (min, max) => Math.floor(Math.random() * (max - min) + min);
+
+    fetchPokemon(randomNumber(1, 151));
   }
 
   render() {
@@ -51,15 +54,19 @@ class ItemSelected extends React.Component {
               {this.state.name}
               <br />
               <br />
-              Id:&#160;
-              {this.state.id}
+              Type:&#160;
+              {this.state.type}
             </figcaption>
           </figure>
         </div>
         <div className="MidSection">
           <p>
-            Type:&#160;
-            {this.state.type}
+            Id:&#160;
+            {this.state.id}
+          </p>
+          <p>
+            hp:&#160;
+            {this.state.hp}
           </p>
           <p>
             Height:&#160;
@@ -68,10 +75,6 @@ class ItemSelected extends React.Component {
           <p>
             Weight:&#160;
             {this.state.weight}
-          </p>
-          <p>
-            hp:&#160;
-            {this.state.hp}
           </p>
         </div>
       </div>
