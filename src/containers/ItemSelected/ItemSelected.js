@@ -3,14 +3,16 @@
 /* eslint-disable react/prefer-stateless-function */
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import getPokemon from '../../services/api';
+import fetchPokemon from '../../services/api';
+
+const pikachu = fetchPokemon(25);
 
 class ItemSelected extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       id: 'id',
-      name: 'name',
+      name: pikachu.name,
       height: 'height',
       weight: 'wight',
       image: 'image',
@@ -21,6 +23,8 @@ class ItemSelected extends React.Component {
 
   componentDidMount() {
     console.log('componentDidMount');
+    const pikachu = fetchPokemon(25);
+    console.log(pikachu.name);
   }
 
   render() {
