@@ -1,7 +1,5 @@
 /* eslint-disable react/destructuring-assignment */
-/* eslint-disable react/no-unused-state */
 /* eslint-disable react/prefer-stateless-function */
-/* eslint-disable no-unused-vars */
 import React from 'react';
 import axios from 'axios';
 
@@ -16,16 +14,12 @@ class ItemSelected extends React.Component {
       image: 'image',
       hp: 'hp',
     };
-    console.log('constructor');
   }
 
   componentDidMount() {
-    console.log('componentDidMount');
-
     const fetchPokemon = async (id = '') => {
       const response = await axios.get(`https://pokeapi.co/api/v2/pokemon/${id}`);
       const result = await response.data;
-      console.log(result);
       this.setState({
         id: result.id,
         name: result.name.toUpperCase(),
@@ -43,7 +37,6 @@ class ItemSelected extends React.Component {
   }
 
   render() {
-    console.log('render');
     return (
       <div className="ItemSelected col-4">
         <div className="TopSection">
