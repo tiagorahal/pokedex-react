@@ -7,12 +7,12 @@ class ItemSelected extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      id: 'id',
-      name: 'name',
-      height: 'height',
-      weight: 'wight',
-      image: 'image',
-      hp: 'hp',
+      id: '',
+      name: '',
+      height: '',
+      weight: '',
+      image: '',
+      hp: '',
     };
   }
 
@@ -25,14 +25,12 @@ class ItemSelected extends React.Component {
         name: result.name.toUpperCase(),
         height: result.height,
         weight: result.weight,
-        image: result.sprites.other.home.front_default,
+        image: result.sprites.front_default,
         hp: result.stats[0].base_stat,
         type: result.types[0].type.name.toUpperCase(),
       });
     };
-
     const randomNumber = (min, max) => Math.floor(Math.random() * (max - min) + min);
-
     fetchPokemon(randomNumber(1, 151));
   }
 
