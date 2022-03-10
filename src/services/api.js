@@ -11,7 +11,7 @@ const fetchPokemon = async (id = '') => {
     image: result.sprites.other.home.front_default,
     hp: result.stats[0].base_stat,
   };
-  return pokemon;
+  return JSON.stringify(pokemon);
 };
 
 export default fetchPokemon;

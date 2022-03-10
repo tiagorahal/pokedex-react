@@ -5,14 +5,12 @@
 import React from 'react';
 import fetchPokemon from '../../services/api';
 
-const pikachu = fetchPokemon(25);
-
 class ItemSelected extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       id: 'id',
-      name: pikachu.name,
+      name: 'name',
       height: 'height',
       weight: 'wight',
       image: 'image',
@@ -24,7 +22,7 @@ class ItemSelected extends React.Component {
   componentDidMount() {
     console.log('componentDidMount');
     const pikachu = fetchPokemon(25);
-    console.log(pikachu.name);
+    console.log(typeof (pikachu));
   }
 
   render() {
