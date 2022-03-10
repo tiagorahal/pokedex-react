@@ -10,6 +10,17 @@ class HomePage extends React.Component {
         <div className="SelectMenu">
           <div className="SelectedRow">
             <ItemSelected />
+            <ItemSelected />
+            <ItemSelected />
+            <ItemSelected />
+            <ItemSelected />
+            <ItemSelected />
+            <ItemSelected />
+            <ItemSelected />
+            <ItemSelected />
+            <ItemSelected />
+            <ItemSelected />
+            <ItemSelected />
           </div>
         </div>
       </div>
