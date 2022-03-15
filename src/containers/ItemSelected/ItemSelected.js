@@ -32,7 +32,7 @@ class ItemSelected extends React.Component {
         type: result.types[0].type.name.toUpperCase(),
       });
     };
-    fetchPokemon(randomNumber(1, 151));
+    fetchPokemon(randomNumber(1, 125));
   }
 
   render() {
