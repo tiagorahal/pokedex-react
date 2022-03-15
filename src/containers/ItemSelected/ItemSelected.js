@@ -22,7 +22,6 @@ class ItemSelected extends React.Component {
     const fetchPokemon = async (id = '') => {
       const response = await axios.get(`https://pokeapi.co/api/v2/pokemon/${id}`);
       const result = await response.data;
-      console.log(result);
       this.setState({
         id: result.id,
         name: result.name.toUpperCase(),
