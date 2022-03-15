@@ -13,13 +13,16 @@ class ItemSelected extends React.Component {
       weight: '',
       image: '',
       hp: '',
+      type: '',
     };
   }
 
   componentDidMount() {
+    const randomNumber = (min, max) => Math.floor(Math.random() * (max - min) + min);
     const fetchPokemon = async (id = '') => {
       const response = await axios.get(`https://pokeapi.co/api/v2/pokemon/${id}`);
       const result = await response.data;
+      console.log(result);
       this.setState({
         id: result.id,
         name: result.name.toUpperCase(),
@@ -30,7 +33,6 @@ class ItemSelected extends React.Component {
         type: result.types[0].type.name.toUpperCase(),
       });
     };
-    const randomNumber = (min, max) => Math.floor(Math.random() * (max - min) + min);
     fetchPokemon(randomNumber(1, 151));
   }
 
