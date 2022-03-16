@@ -11,9 +11,7 @@ class Header extends React.Component {
           <img src={PixelBall} alt="pixel pokeball" />
         </div>
         <div className="Header-links">
-          <a href="/">Pokemons</a>
-          <a href="/">Types</a>
-          <a href="/">Generation</a>
+          <a href="/">Randomize</a>
         </div>
       </div>
     );
