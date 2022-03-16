@@ -6,7 +6,7 @@ class HomePage extends React.Component {
   render() {
     return (
       <div className="HomePage">
-        <h2>Chose the Pokemon that you want to know more about!</h2>
+        <h2>Those are the pokémons that Arceus choose for you!</h2>
         <div className="SelectMenu">
           <div className="SelectedRow">
             <ItemSelected />
