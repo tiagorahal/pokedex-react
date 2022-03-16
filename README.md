@@ -2,8 +2,8 @@
 
 > Pokédex
 
-![screenshot](./screenshot01.png)
-![screenshot](./screenshot02.png)
+![screenshot](./src/screenshot01.png)
+![screenshot](./src/screenshot02.png)
 
 A webapp dedicated to simulate a real Pokedex using Pokémon API and Involvement API.
 
