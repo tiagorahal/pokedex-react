@@ -2,53 +2,61 @@
 /* eslint-disable no-undef */
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/prefer-stateless-function */
-import React, { useState } from 'react';
-import fetchPokemon from '../../services/api';
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
 const ItemSelected = () => {
-  const randomNumber = (min, max) => Math.floor(Math.random() * (max - min) + min);
+  const [stats, setStats] = useState([]);
 
-  const [stat, setStats] = useState({
-    id: '999',
-    name: 'pokemonn',
-    height: '10',
-    weight: '20',
-    image: 'https://preview.redd.it/px2cv3hts9651.png?width=960&crop=smart&auto=webp&s=0ea6d2891ec274822eee9cd1bb3954d681480331',
-    hp: '100',
-    type: 'normal',
-  });
+  useEffect(() => {
+    const fetchPokemon = async (id = '') => {
+      const response = await axios.get(`https://pokeapi.co/api/v2/pokemon/${id}`);
+      const result = await response.data;
+      setStats({
+        id: result.id,
+        name: result.name.toUpperCase(),
+        height: result.height,
+        weight: result.weight,
+        image: result.sprites.front_default,
+        hp: result.stats[0].base_stat,
+        type: result.types[0].type.name.toUpperCase(),
+      });
+    };
+    const randomNumber = (min, max) => Math.floor(Math.random() * (max - min) + min);
+    fetchPokemon(randomNumber(1, 900));
+  }, []);
 
   return (
     <div className="ItemSelected col-4">
       <div className="TopSection">
         <figure className="TopImage">
-          <img src={stat.image} alt="Pokemon" />
+          <img src={stats.image} alt="Pokemon" />
           <figcaption>
             Name:&#160;
-            {stat.name}
+            {stats.name}
             <br />
             <br />
             Type:&#160;
-            {stat.type}
+            {stats.type}
           </figcaption>
         </figure>
       </div>
       <div className="MidSection">
         <p>
           Id:&#160;
-          {stat.id}
+          {stats.id}
         </p>
         <p>
           hp:&#160;
-          {stat.hp}
+          {stats.hp}
         </p>
         <p>
           Height:&#160;
-          {stat.height}
+          {stats.height}
         </p>
         <p>
           Weight:&#160;
-          {stat.weight}
+          {stats.weight}
         </p>
       </div>
     </div>
