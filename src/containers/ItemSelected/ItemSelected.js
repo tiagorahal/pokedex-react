@@ -5,8 +5,8 @@ const ItemSelected = () => {
   const [stats, setStats] = useState([]);
 
   useEffect(() => {
-    const fetchPokemon = async (id = '') => {
-      const response = await axios.get(`https://pokeapi.co/api/v2/pokemon/${id}`);
+    const fetchPokemon = async (query = '') => {
+      const response = await axios.get(`https://pokeapi.co/api/v2/pokemon/${query}`);
       const result = await response.data;
       setStats({
         id: result.id,
