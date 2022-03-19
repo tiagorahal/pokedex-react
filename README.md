@@ -16,7 +16,7 @@ A webapp dedicated to simulate a real Pokedex using Pokémon API and Involvement
 
 ## Live Demo
 
-[Live Demo Link](https://pokedex-react-azure.vercel.app/)
+[Live Demo Link](https://pokedex-react-9nh9m9qol-tiagorahal.vercel.app/)
 
 
 ## Getting Started
